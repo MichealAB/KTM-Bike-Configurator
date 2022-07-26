@@ -1,0 +1,847 @@
+{
+  "Image": null,
+  "Layout": [
+    {
+      "Id": {
+        "Value": 56974
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "BrakeDiscFront"
+      },
+      "FileName": "BrakeDiscFront_290R_0000.png",
+      "Zindex": 290,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 2
+    },
+    {
+      "Id": {
+        "Value": 56902
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Handguard"
+      },
+      "FileName": "Handguard_270R_0000.png",
+      "Zindex": 270,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 2
+    },
+    {
+      "Id": {
+        "Value": 56846
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "FootpegFront"
+      },
+      "FileName": "FootpegFront_235R_0000.png",
+      "Zindex": 235,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 2
+    },
+    {
+      "Id": {
+        "Value": 56800
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "FootpegRear"
+      },
+      "FileName": "FootpegRear_155R_0000.png",
+      "Zindex": 155,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 2
+    },
+    {
+      "Id": {
+        "Value": 56806
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "FootpegsHolderRear"
+      },
+      "FileName": "FootpegsHolderRear_150R_0000.png",
+      "Zindex": 150,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 2
+    },
+    {
+      "Id": {
+        "Value": 56982
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Base"
+      },
+      "FileName": "Base_000_0000.png",
+      "Zindex": 0,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56864
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "TankSpoiler"
+      },
+      "FileName": "TankSpoiler-ORANGE_005_0000.png",
+      "Zindex": 5,
+      "Color": {
+        "IsSome": true,
+        "IsNone": false
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56886
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "RadiatorProtectionGrille"
+      },
+      "FileName": "RadiatorProtectionGrille_020_0000.png",
+      "Zindex": 20,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56841
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "ExhaustPipe"
+      },
+      "FileName": "ExhaustPipe_025_0000.png",
+      "Zindex": 25,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56815
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "FueltankProtectionSet"
+      },
+      "FileName": "FueltankProtectionSet_028_0000.png",
+      "Zindex": 28,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56757
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": false,
+      "PartCode": {
+        "Value": "61903990044"
+      },
+      "FileName": "61903990044_030_0000.png",
+      "Zindex": 30,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56832
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "ClutchCover"
+      },
+      "FileName": "ClutchCover_040_0000.png",
+      "Zindex": 40,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56872
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Windshield"
+      },
+      "FileName": "Windshield_050_0000.png",
+      "Zindex": 50,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56908
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": false,
+      "PartCode": {
+        "Value": "63708906044"
+      },
+      "FileName": "63708906044_054_0000.png",
+      "Zindex": 54,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56901
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "SideFairingSet"
+      },
+      "FileName": "SideFairingSet_060_0000.png",
+      "Zindex": 60,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56809
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Fork"
+      },
+      "FileName": "Fork_069_0000.png",
+      "Zindex": 69,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56889
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "RimFront"
+      },
+      "FileName": "RimFront_070_0000.png",
+      "Zindex": 70,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56892
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "RimRear"
+      },
+      "FileName": "RimRear_071_0000.png",
+      "Zindex": 71,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56869
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "TripleClamp"
+      },
+      "FileName": "TripleClamp_090_0000.png",
+      "Zindex": 90,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56818
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Grips"
+      },
+      "FileName": "Grips_100_0000.png",
+      "Zindex": 100,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56967
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "BlinkerRear"
+      },
+      "FileName": "BlinkerRear_105_0000.png",
+      "Zindex": 105,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56976
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "BrakeDiscRear"
+      },
+      "FileName": "BrakeDiscRear_105_0000.png",
+      "Zindex": 105,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56867
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Tires"
+      },
+      "FileName": "Tires_110_0000.png",
+      "Zindex": 110,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56812
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "FrontFender"
+      },
+      "FileName": "FrontFender_112_0000.png",
+      "Zindex": 112,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56838
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "CoversSubframe"
+      },
+      "FileName": "CoversSubframe_115_0000.png",
+      "Zindex": 115,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56638
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": false,
+      "PartCode": {
+        "Value": "61907940030"
+      },
+      "FileName": "61907940030_120_0000.png",
+      "Zindex": 120,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56856
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "SprocketRear"
+      },
+      "FileName": "SprocketRear_130_0000.png",
+      "Zindex": 130,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56831
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Chain"
+      },
+      "FileName": "Chain_135_0000.png",
+      "Zindex": 135,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56857
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "SproketCoverFront"
+      },
+      "FileName": "SproketCoverFront_138_0000.png",
+      "Zindex": 138,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56850
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Chainguard"
+      },
+      "FileName": "Chainguard_142_0000.png",
+      "Zindex": 142,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56828
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Chainguide"
+      },
+      "FileName": "Chainguide_144_0000.png",
+      "Zindex": 144,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56883
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Muffler"
+      },
+      "FileName": "Muffler_146_0000.png",
+      "Zindex": 146,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56803
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "FootpegsHolderRear"
+      },
+      "FileName": "FootpegsHolderRear_150L_0000.png",
+      "Zindex": 150,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 1
+    },
+    {
+      "Id": {
+        "Value": 56880
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "MufflerCover"
+      },
+      "FileName": "MufflerCover_152_0000.png",
+      "Zindex": 152,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56824
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "FootpegRear"
+      },
+      "FileName": "FootpegRear_155L_0000.png",
+      "Zindex": 155,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 1
+    },
+    {
+      "Id": {
+        "Value": 56876
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "SideStand"
+      },
+      "FileName": "SideStand_200_0000.png",
+      "Zindex": 200,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56904
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "FootpegFront"
+      },
+      "FileName": "FootpegFront_235L_0000.png",
+      "Zindex": 235,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 1
+    },
+    {
+      "Id": {
+        "Value": 56980
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Breakfluidcover"
+      },
+      "FileName": "Breakfluidcover_250_0000.png",
+      "Zindex": 250,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56835
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "ClutchFluidCover"
+      },
+      "FileName": "ClutchFluidCover_260_0000.png",
+      "Zindex": 260,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56964
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "BlinkerFront"
+      },
+      "FileName": "BlinkerFront_265_0000.png",
+      "Zindex": 265,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 0
+    },
+    {
+      "Id": {
+        "Value": 56821
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "Handguard"
+      },
+      "FileName": "Handguard_270L_0000.png",
+      "Zindex": 270,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 1
+    },
+    {
+      "Id": {
+        "Value": 56972
+      },
+      "VehicleProductCode": {
+        "Value": "M-1290SUPERADVENTURES2022"
+      },
+      "IsStandardPart": true,
+      "PartCode": {
+        "Value": "BrakeDiscFront"
+      },
+      "FileName": "BrakeDiscFront_290L_0000.png",
+      "Zindex": 290,
+      "Color": {
+        "IsSome": false,
+        "IsNone": true
+      },
+      "Perspective": 0,
+      "LayerSide": 1
+    }
+  ],
+  "ContentType": "text/json",
+  "BaseUrl": "https://configurator.ktm.com/rendering"
+}
