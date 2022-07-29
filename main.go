@@ -14,43 +14,45 @@ import (
 	"sort"
 )
 
+type ZindexSorter []layout
+
+func (a ZindexSorter) Len() int           { return len(a) }
+func (a ZindexSorter) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
+func (a ZindexSorter) Less(i, j int) bool { return a[i].Zindex > a[j].Zindex }
+
 type BikePartList struct {
-	Image  interface{} `json:"Image"`
-	Layout []struct {
-		Id struct {
-			Value int `json:"Value"`
-		} `json:"Id"`
-		VehicleProductCode struct {
-			Value string `json:"Value"`
-		} `json:"VehicleProductCode"`
-		IsStandardPart bool `json:"IsStandardPart"`
-		PartCode       struct {
-			Value string `json:"Value"`
-		} `json:"PartCode"`
-		FileName string `json:"FileName"`
-		Zindex   int    `json:"Zindex"`
-		Color    struct {
-			IsSome bool `json:"IsSome"`
-			IsNone bool `json:"IsNone"`
-		} `json:"Color"`
-		Perspective int `json:"Perspective"`
-		LayerSide   int `json:"LayerSide"`
-	} `json:"Layout"`
-	ContentType string `json:"ContentType"`
-	BaseUrl     string `json:"BaseUrl"`
+	Image       interface{} `json:"Image"`
+	Layout      []layout    `json:"Layout"`
+	ContentType string      `json:"ContentType"`
+	BaseUrl     string      `json:"BaseUrl"`
 }
 type ImagesKTM struct {
 	Image       interface{}    `json:"Image"`
 	Layout      []BikePartList `json:"Layout"`
 	ContentType string         `json:"ContentType"`
 	BaseURL     string         `json:"BaseUrl"`
-	Zindex      int            `json:"Zindex"`
 }
 
-//type PersonSlice []ImagesKTM
-
-//func (a PersonSlice) Less(i, j int) bool { // Переопределить метод Less (), отсортировать от наибольшего к наименьшему
-//return a[j].Zindex < a[i].Zindex
+type layout struct {
+	Id struct {
+		Value int `json:"Value"`
+	} `json:"Id"`
+	VehicleProductCode struct {
+		Value string `json:"Value"`
+	} `json:"VehicleProductCode"`
+	IsStandardPart bool `json:"IsStandardPart"`
+	PartCode       struct {
+		Value string `json:"Value"`
+	} `json:"PartCode"`
+	FileName string `json:"FileName"`
+	Zindex   int    `json:"Zindex"`
+	Color    struct {
+		IsSome bool `json:"IsSome"`
+		IsNone bool `json:"IsNone"`
+	} `json:"Color"`
+	Perspective int `json:"Perspective"`
+	LayerSide   int `json:"LayerSide"`
+}
 
 func main() {
 	jsonFile, err := os.Open("ktm.json") //открываем json файл, получаем указатель на него (не данные!)
@@ -68,13 +70,16 @@ func main() {
 			return                                                                                                 // возвращаем значение
 		}
 		fmt.Println("Удалось преобразовать массив байт в структуру ImagesKTM и заполнить переменную parts") //если ок
-		sort.Slice(Part.Layout[:], func(i, j int) bool { return Part.Layout[i].Zindex < Part.Layout[j].Zindex })
-		//log.Fatalf("хуйня, ещё раз")
+
+		index := Part.Layout
+		sort.Sort(ZindexSorter(index))
+		log.Println("by Zindex:", index)
 
 		partsCount := len(Part.Layout)
 		fmt.Println("Количество шагов", partsCount) //выводим текст и кол-во шагов
-		for i := 0; i < partsCount; i++ {           // i переменная, которую мы используем как индекс
-			fmt.Println("Номер шага - ", i)                                                                                                                                                   //выводим текст
+		//for i := 0; i < partsCount; i++ {           // i переменная, которую мы используем как индекс
+		for i, v := range index {
+			fmt.Println("Номер шага - ", i, v)                                                                                                                                                //выводим текст
 			fmt.Println("Название картинки: " + Part.Layout[i].FileName)                                                                                                                      // Выводим в консоль название картинки из активного слоя (из Layout)
 			url := "https://configurator.ktm.com/rendering/api/getblobimage?companyCode=KTM&bikeSetupId=" + Part.Layout[i].VehicleProductCode.Value + "&imagePath=" + Part.Layout[i].FileName // Склеиваем статические и динамические части ссылки
 			fmt.Println("URL картинки: " + url)                                                                                                                                               // выводим в консоль сформированный адрес картинки
