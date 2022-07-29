@@ -102,37 +102,37 @@ func main() {
 			//if err == nil && fileName != "images/Base_000_0000.png" { // **имитировали ошибку для проверки
 			if err == nil { //если удалось получить файл
 				fmt.Printf("Удалось получить файл, склеиваем\n")
-				image1, err := os.Open(fileName) // получаем указатель на файл, если он существует и доступен для чтения. переменная файлнейм уже содержит путь к картинке: "images/" + parts.Layout[i].FileName
-				if err != nil {                  //если не удалось открыть файл
+				imageForGluing, err := os.Open(fileName) // получаем указатель на файл, если он существует и доступен для чтения. переменная файлнейм уже содержит путь к картинке: "images/" + parts.Layout[i].FileName
+				if err != nil {                          //если не удалось открыть файл
 					log.Fatalf("failed to open: %s", err) //фатал, программа стоп
 				}
-				first, err := png.Decode(image1) //декодирование изображения
-				if err != nil {                  //если ошибка (конверт с ошибкой не пустой)
+				first, err := png.Decode(imageForGluing) //декодирование изображения
+				if err != nil {                          //если ошибка (конверт с ошибкой не пустой)
 					log.Fatalf("failed to decode: %s", err) //если не получилось, фатал,программа стоп
 				}
-				defer image1.Close()                            //отложенное закрытие
-				var image3 *image.RGBA                          //приминение цвета
-				b := first.Bounds()                             //******
-				image3 = image.NewRGBA(b)                       //******
-				draw.Draw(image3, b, first, image.ZP, draw.Src) //******
-				if i != 0 {                                     //если это не первый слой, тогда
-					image2, err := os.Open("result.png") //открываем изображение результ
-					if err != nil {                      //если не получилось, то
+				defer imageForGluing.Close()                         //отложенное закрытие
+				var resultImage *image.RGBA                          //приминение цвета
+				b := first.Bounds()                                  //******
+				resultImage = image.NewRGBA(b)                       //******
+				draw.Draw(resultImage, b, first, image.ZP, draw.Src) //******
+				if i != 0 {                                          //если это не первый слой, тогда
+					lastResult, err := os.Open("result.png") //открываем изображение результ
+					if err != nil {                          //если не получилось, то
 						log.Fatalf("failed to open: %s", err) //выводим ошибку, стоп программа
 					}
-					second, err := png.Decode(image2) //декодируем изображение
-					if err != nil {                   //если не получилось, то
+					second, err := png.Decode(lastResult) //декодируем изображение
+					if err != nil {                       //если не получилось, то
 						log.Fatalf("failed to decode: %s", err) //выводим ошибку, стоп программа
 					}
-					defer image2.Close()                                            //отложенное закрытие
-					draw.Draw(image3, second.Bounds(), second, image.ZP, draw.Over) //склеиваем изображения
+					defer lastResult.Close()                                             //отложенное закрытие
+					draw.Draw(resultImage, second.Bounds(), second, image.ZP, draw.Over) //склеиваем изображения
 				}
 				third, err := os.Create("result.png") // создаём изображение результ
 				if err != nil {                       //если не получилось создать
 					log.Fatalf("failed to create: %s", err) //выводим на экран ошибку и останавливаем прог
 				}
-				png.Encode(third, image3) //кодируем обратно изображение
-				defer third.Close()       //отложенное закрытие
+				png.Encode(third, resultImage) //кодируем обратно изображение
+				defer third.Close()            //отложенное закрытие
 			} else { //**
 				fmt.Println("не было необходимой картинки для склейки") //выводим текст
 				return                                                  //****
